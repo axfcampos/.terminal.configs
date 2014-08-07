@@ -62,10 +62,11 @@ set hlsearch
 " VIM-AIRLINE
 set laststatus=2
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'solarized'
+let g:airline_theme = 'base16'
 let g:airline#extensions#tmuxline#enabled = 0
 let g:airline#extensions#tabline#enabled = 1
 let g:tmuxline_powerline_separators = 0
+let g:tmuxline_theme = 'iceberg'
 set timeoutlen=50 " fixes delay when switching modes
 
 " Solarized
