@@ -12,4 +12,9 @@ https://github.com/tpope/vim-fugitive to see GIT BRANCH in airline
 
 https://github.com/nathanaelkane/vim-indent-guides
 
+https://github.com/tomislav/osx-terminal.app-colors-solarized for Terminal.app
+
+https://github.com/altercation/vim-colors-solarized for vim
+
 All files are symlinked from ~ to .terminal.configs/
+
