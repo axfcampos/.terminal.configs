@@ -12,3 +12,4 @@ https://github.com/tpope/vim-fugitive to see GIT BRANCH in airline
 
 https://github.com/nathanaelkane/vim-indent-guides
 
+All files are symlinked from ~ to .terminal.configs/
