@@ -4,7 +4,7 @@
 #####  BASH_IT
 #####################################################
 # Path to the bash it configuration
-export BASH_IT=$HOME/.terminal.configs/.bash_it
+export BASH_IT=$HOME/.bash_it
 
 # Lock and Load a custom theme file
 # location /.bash_it/themes/
