@@ -1,3 +1,6 @@
 [submodule "bash_it"]
 	path = bash_it
 	url = git://github.com/revans/bash-it.git
+[submodule "osx-terminal.app-colors-solarized"]
+	path = osx-terminal.app-colors-solarized
+	url = git://github.com/tomislav/osx-terminal.app-colors-solarized.git
