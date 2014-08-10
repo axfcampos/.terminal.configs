@@ -31,6 +31,8 @@ Plugin 'edkolev/tmuxline.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'Raimondi/delimitMate'
+Plugin 'pangloss/vim-javascript'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -51,7 +53,8 @@ syntax on
 set background=dark
 set number
 set encoding=utf-8
-" set t_Co=256
+set shiftwidth=4
+set tabstop=4
 
 " Ignore case when searching
 set ignorecase
@@ -72,3 +75,6 @@ set timeoutlen=50 " fixes delay when switching modes
 " Solarized
 " let g:solarized_termcolors=256
 colorscheme solarized
+
+" split brackets by a line {} to {\n\n}
+imap <C-c> <CR><Esc>O

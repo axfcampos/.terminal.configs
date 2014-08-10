@@ -26,5 +26,5 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 #####################################################
 ##### Simple Configs
 #####################################################
-alias ls='ls -G'
+alias ls='ls -G -h'
 alias tmux='tmux -2'
