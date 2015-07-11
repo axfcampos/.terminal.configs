@@ -21,3 +21,6 @@ https://github.com/altercation/vim-colors-solarized for vim
 All files are symlinked from ~ to .terminal.configs/
 
 ftplugin is symlinked from .vim/ftplugin -> .terminal.configs/ftplugin
+
+source ~/.bash_profile
+tmux source-file ~/.tmux.conf
